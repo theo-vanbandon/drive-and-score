@@ -26,7 +26,7 @@ export default function Page() {
                     Le chat démarre 15 secondes après les souris, donnant ainsi un léger avantage aux souris pour se disperser et se cacher. De plus, le sens inverse est interdit, empêchant ainsi les souris de revenir sur leurs pas pour éviter un piège. Ce mode utilise les mêmes circuits que le mode Chronométré. Retrouvez-les <Link href="/circuits" className="text-blue-400 hover:underline">ici</Link>.
                 </p>
                 <p className="text-lg text-gray-300 mb-6">
-                    Le but pour le chat est d'attraper toutes les souris en les piégeant, mais chaque souris attrapée se transforme à son tour en chat, ce qui complique l'objectif à mesure que le jeu progresse.
+                    Le but pour le chat est d&apos;attraper toutes les souris en les piégeant, mais chaque souris attrapée se transforme à son tour en chat, ce qui complique l&apos;objectif à mesure que le jeu progresse.
                 </p>
             </section>
 
@@ -34,35 +34,48 @@ export default function Page() {
             <section className="w-full max-w-5xl mb-12">
                 <h2 className="text-3xl font-semibold text-blue-400 mb-4">Mode Foot</h2>
                 <p className="text-lg text-gray-300 mb-6">
-                    Le mode Foot s'inspire du mode "Rumble" de Rocket League. Les joueurs s'affrontent dans des matchs de football où des objets spéciaux peuvent être utilisés pour perturber le jeu et créer des opportunités stratégiques.
+                    Le mode Foot s&apos;inspire du mode &quot;Rumble&quot; de Rocket League. Les joueurs
+                    s&apos;affrontent dans des matchs de football où des objets spéciaux peuvent être utilisés pour
+                    perturber le jeu et créer des opportunités stratégiques.
                 </p>
                 <p className="text-lg text-gray-300 mb-6">
-                    L'objectif est de marquer des buts en manipulant un ballon tout en utilisant des objets pour gêner les adversaires ou se défendre. Les objets disponibles incluent :
+                    L&apos;objectif est de marquer des buts en manipulant un ballon tout en utilisant des objets pour
+                    gêner les adversaires ou se défendre. Les objets disponibles incluent :
                 </p>
 
                 <div className="w-full bg-gray-800 p-6 rounded-2xl shadow-lg">
                     <h3 className="text-xl font-semibold text-blue-400 mb-4">Objets</h3>
                     <ul className="text-gray-400">
                         <li className="mb-6">
-                            <strong>Roquette : </strong>Propulsez-vous ou vos adversaires dans les airs, perturbant leur trajectoire ou leur positionnement sur le terrain. Idéal pour marquer un but ou empêcher l'adversaire d'atteindre la balle.
+                            <strong>Roquette : </strong>Propulsez-vous ou vos adversaires dans les airs, perturbant leur
+                            trajectoire ou leur positionnement sur le terrain. Idéal pour marquer un but ou empêcher
+                            l&apos;adversaire d&apos;atteindre la balle.
                         </li>
                         <li className="mb-6">
-                            <strong>Freeze : </strong>Gèle un joueur pendant quelques secondes, l'empêchant de bouger et le rendant vulnérable à une attaque ou à une perte de position stratégique.
+                            <strong>Freeze : </strong>Gèle un joueur pendant quelques secondes, l&apos;empêchant de
+                            bouger et le rendant vulnérable à une attaque ou à une perte de position stratégique.
                         </li>
                         <li className="mb-6">
-                            <strong>Ventouse : </strong>Utilise une ventouse pour attirer ou repousser la balle ou un autre joueur. Parfait pour manipuler la balle à distance ou interrompre les actions adverses.
+                            <strong>Ventouse : </strong>Utilise une ventouse pour attirer ou repousser la balle ou un
+                            autre joueur. Parfait pour manipuler la balle à distance ou interrompre les actions
+                            adverses.
                         </li>
                         <li className="mb-6">
-                            <strong>Pic : </strong>Des objets pointus qui ralentissent ou endommagent les joueurs qui les touchent, augmentant les risques de perdre du contrôle sur la balle ou d’être déséquilibré.
+                            <strong>Pic : </strong>Des objets pointus qui ralentissent ou endommagent les joueurs qui
+                            les touchent, augmentant les risques de perdre du contrôle sur la balle ou d’être
+                            déséquilibré.
                         </li>
                         <li className="mb-6">
-                            <strong>Réduction de vitesse : </strong>Réduit temporairement la vitesse d'un joueur ou de la balle, permettant de prendre un avantage stratégique dans un moment clé de la partie.
+                            <strong>Réduction de vitesse : </strong>Réduit temporairement la vitesse d&apos;un joueur ou
+                            de la balle, permettant de prendre un avantage stratégique dans un moment clé de la partie.
                         </li>
                     </ul>
                 </div>
 
                 <p className="text-lg text-gray-300 mt-6">
-                    Ce mode dynamique et imprévisible incite à une grande variété de stratégies. Utilisez les objets de manière astucieuse pour déstabiliser vos adversaires, protéger votre but et marquer des buts spectaculaires. Le chaos et la compétition sont au rendez-vous !
+                    Ce mode dynamique et imprévisible incite à une grande variété de stratégies. Utilisez les objets de
+                    manière astucieuse pour déstabiliser vos adversaires, protéger votre but et marquer des buts
+                    spectaculaires. Le chaos et la compétition sont au rendez-vous !
                 </p>
             </section>
         </div>

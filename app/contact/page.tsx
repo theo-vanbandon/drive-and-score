@@ -10,7 +10,7 @@ export default function ContactPage() {
                 <div className="bg-gray-800 p-6 rounded-lg shadow-lg mb-6">
                     <h2 className="text-blue-400 text-2xl font-semibold mb-4">Adresse Mail</h2>
                     <p className="text-lg mb-4">
-                        Pour toute question, vous pouvez nous contacter par mail à l'adresse suivante :
+                        Pour toute question, vous pouvez nous contacter par mail à l&apos;adresse suivante :
                     </p>
                     <a
                         href="mailto:driveandscore@gmail.com"

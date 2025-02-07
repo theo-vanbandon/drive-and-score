@@ -39,7 +39,7 @@ export default function Home() {
                 </div>
                 <div className={`${styles.card} bg-gray-800 p-6 rounded-2xl shadow-lg`}>
                     <h3 className="text-xl font-semibold text-blue-400">Accessible à tous</h3>
-                    <p className="text-gray-400 mt-2">Que vous soyez débutant ou expert, profitez d'une expérience inédite.</p>
+                    <p className="text-gray-400 mt-2">Que vous soyez débutant ou expert, profitez d&apos;une expérience inédite.</p>
                     <Link
                         href="/prix"
                         className={`${styles.button} ${styles.secondaryButton}`}
