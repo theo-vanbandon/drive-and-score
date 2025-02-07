@@ -16,23 +16,23 @@ export default function Header() {
                     <ul className="flex space-x-6">
                         <li className="flex items-center">
                             <FaHome className={`h-5 w-5 mr-3 hover:text-blue-500 ${styles.iconBorder}`} />
-                            <Link href="/" style={{ textDecoration: 'none' }} className="green">Accueil</Link>
+                            <Link href="/" style={{ textDecoration: 'none' }} className="linkMenu">Accueil</Link>
                         </li>
                         <li className="flex items-center">
                             <FaMap className={`h-5 w-5 mr-3 hover:text-blue-500 ${styles.iconBorder}`} />
-                            <Link href="/circuits" style={{ textDecoration: 'none' }} className="green">Circuits</Link>
+                            <Link href="/circuits" style={{ textDecoration: 'none' }} className="linkMenu">Circuits</Link>
                         </li>
                         <li className="flex items-center">
                             <FaPlay className={`h-5 w-5 mr-3 hover:text-blue-500 ${styles.iconBorder}`} />
-                            <Link href="/modes" style={{ textDecoration: 'none' }} className="green">Modes de Jeu</Link>
+                            <Link href="/modes" style={{ textDecoration: 'none' }} className="linkMenu">Modes de Jeu</Link>
                         </li>
                         <li className="flex items-center">
                             <FaShoppingCart className={`h-5 w-5 mr-3 hover:text-blue-500 ${styles.iconBorder}`} />
-                            <Link href="/prix" style={{ textDecoration: 'none' }} className="green">Prix et abonnement</Link>
+                            <Link href="/prix" style={{ textDecoration: 'none' }} className="linkMenu">Prix et abonnement</Link>
                         </li>
                         <li className="flex items-center">
                             <FaEnvelope className={`h-5 w-5 mr-3 hover:text-blue-500 ${styles.iconBorder}`} />
-                            <Link href="/contact" style={{ textDecoration: 'none' }} className="green">Contact</Link>
+                            <Link href="/contact" style={{ textDecoration: 'none' }} className="linkMenu">Contact</Link>
                         </li>
                     </ul>
                 </nav>
