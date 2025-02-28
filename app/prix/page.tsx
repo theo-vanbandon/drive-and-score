@@ -27,9 +27,9 @@ export default function Page() {
                 <div className={styles.section}>
                     <h2 className={styles.sectionTitle}>Abonnement SuperMax</h2>
                     <ul className={styles.list}>
-                        <li className={styles.listItem}>Premier mois : <span>80€</span></li>
-                        <li className={styles.listItem}>Renouvellement : <span>60€</span></li>
-                        <li className={styles.listItem}>Limite de parties par jour : <span>Max 3 parties par jour</span></li>
+                        <li className={styles.listItem}>Premier mois : <span>110€</span></li>
+                        <li className={styles.listItem}>Renouvellement : <span>90€</span></li>
+                        <li className={styles.listItem}><span>Parties illimitées</span></li>
                     </ul>
                 </div>
 
