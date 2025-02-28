@@ -1,9 +1,10 @@
 import Image from "next/image";
+import styles from "@/app/styles/Prix.module.css";
 
 export default function Page() {
     return (
         <div className="min-h-screen bg-gray-900 text-white flex flex-col items-center justify-center px-4 py-8">
-            <h1 className="text-4xl font-bold mb-6 text-center text-blue-500">Nos Circuits</h1>
+            <h1 className={styles.title}>Nos Circuits</h1>
             <p className="text-lg text-gray-300 mb-8 text-center max-w-2xl">
                 Découvrez nos circuits miniaturisés, inspirés des plus grands tracés de France et Formule 1, adaptés pour une expérience de course unique en intérieur. Ces circuits, en partenariat avec des acteurs renommés du secteur, vous offrent une immersion totale dans l&apos;univers de la compétition, tout en garantissant une sécurité optimale.
             </p>

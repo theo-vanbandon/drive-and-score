@@ -1,9 +1,10 @@
 import Link from "next/link";
+import styles from "@/app/styles/Prix.module.css";
 
 export default function Page() {
     return (
         <div className="min-h-screen bg-gray-900 text-white flex flex-col items-center justify-start px-4 py-8">
-            <h1 className="text-4xl font-bold mb-6 text-center text-blue-500">Modes de Jeu</h1>
+            <h1 className={styles.title}>Modes de Jeu</h1>
 
             {/* Mode Chronométré */}
             <section className="w-full max-w-5xl mb-12">

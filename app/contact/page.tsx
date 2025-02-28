@@ -1,11 +1,12 @@
 // app/contact/page.tsx
 import Link from "next/link";
+import styles from "@/app/styles/Prix.module.css";
 
 export default function ContactPage() {
     return (
         <div className="bg-gray-900 text-white min-h-screen flex flex-col items-center justify-center py-8">
             <div className="container mx-auto px-6 md:px-12">
-                <h1 className="text-4xl font-bold text-blue-500 text-center mb-8">Contactez-nous</h1>
+                <h1 className={styles.title}>Contactez-nous</h1>
 
                 <div className="bg-gray-800 p-6 rounded-lg shadow-lg mb-6">
                     <h2 className="text-blue-400 text-2xl font-semibold mb-4">Adresse Mail</h2>
