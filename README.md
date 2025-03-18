@@ -1,36 +1,73 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🏎️ Drive & Score
 
-## Getting Started
+Bienvenue sur le dépôt du site web de **Drive & Score**, une entreprise fictive innovante qui combine **karting** et **football** pour offrir une expérience ludique, sportive et totalement inédite. Ce projet a été réalisé dans le cadre d’un **projet universitaire**.
 
-First, run the development server:
+---
+
+## ⚽ À propos de Drive & Score
+
+**Drive & Score** propose un concept unique en France : affrontez vos amis ou collègues dans des matchs de football… en karting ! Sur des circuits spécialement aménagés, les participants doivent marquer des buts tout en pilotant des karts, dans un savant mélange de stratégie, pilotage et esprit d’équipe.
+
+Notre ambition : **révolutionner les loisirs en alliant sensations fortes et esprit de compétition**.
+
+---
+
+## 🖥️ Le site web
+
+Le site présente :
+- Le **concept** innovant de Drive & Score
+- Nos **circuits inspirés de tracés internationaux**
+- Les différents **modes de jeu** (matchs, tournois, contre-la-montre)
+- Les **formules tarifaires** (session unique, packs, abonnements)
+- Des **informations de contact** pour toute demande ou réservation
+
+📍 Accès au site en ligne : [https://drive-and-score.vercel.app](https://drive-and-score.vercel.app)
+
+---
+
+## ⚙️ Technologies utilisées
+
+- [Next.js](https://nextjs.org/)
+- Hébergement via [Vercel](https://vercel.com/)
+
+---
+
+## 📦 Lancer en local
+
+Clone le dépôt :
+
+```bash
+git clone https://github.com/theo-vanbandon/drive-and-score.git
+cd drive-and-score
+```
+
+Installe les dépendances :
+
+```bash
+npm install
+```
+
+Démarre le serveur de développement :
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Ouvre ensuite ton navigateur à l’adresse : [http://localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 👨‍💻 Projet universitaire
 
-## Learn More
+Ce projet a été réalisé dans le cadre d’un projet pédagogique visant à mettre en pratique nos compétences en :
 
-To learn more about Next.js, take a look at the following resources:
+- Développement web moderne (Next.js)
+- Conception UX/UI
+- Communication digitale
+- Création d’identité visuelle d’entreprise fictive
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📄 Licence
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Ce site est un **projet fictif** réalisé à des **fins pédagogiques uniquement**. Toute ressemblance avec des services réels est purement fortuite.
